@@ -13,12 +13,10 @@ namespace TTT
   class Program
   {
     static string cmd;                                              //Anwendereingabe in Kleinbuchstaben
-    static string[] a = new string[3] { "X", "0", " " };
-    static string[] b = new string[3] { "0", "0", "X" };
-    static string[] c = new string[3] { "X", "X", "0" };
-    //static string[] a = new string[3] { " ", " ", " " };
-    //static string[] b = new string[3] { " ", " ", " " };
-    //static string[] c = new string[3] { " ", " ", " " };
+
+    static string[] a = new string[3] { " ", " ", " " };
+    static string[] b = new string[3] { " ", " ", " " };
+    static string[] c = new string[3] { " ", " ", " " };
     static string spielstein;
 
     static void Main(string[] args)
